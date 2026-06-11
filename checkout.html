@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock na Praça|Carrinho de compras</title>
+  <link rel="icon" type="image/png" href="./assets/img/rock-na-praca_favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300..800&display=swap"
+    rel="stylesheet">
+
+  <link rel="preload" href="./assets/fonts/BebasNeue.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="./assets/fonts/OpenSans.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./assets/CSS/estilo.css">
+</head>
+
+<body>
+  <!-- CABEÇALHO -->
+  <header class="cabecalho">
+    <div class="cabecalho-simbolo-logotipo">
+      <a href="/index.html">
+        <img src="./assets/img/rock-na-praca_logotipo_simbolo.webp" alt="Logotipo e simbolo do rock na praça">
+      </a>
+    </div>
+
+    <input type="checkbox" id="menu-toggle">
+    <label for="menu-toggle" class="menu-hamburguer">
+      ☰
+    </label>
+  
+
+    <nav class="cabecalho-menu">
+
+    
+      <a href="checkout.html" title="Carrinho de compras">
+        <img src="./assets/img/carrinho-de-compras.png" alt="Ícone de carrinho de compras">
+      </a>
+
+    </nav>
+
+  </header>
+
+  <main>
+    <section class="secao-carrinho">
+      <h1 class="titulo-carrinho">Meu Carrinho</h1>
+
+      <div id="carrinho">
+
+        <ul class="lista-carrinho">
+          <li>
+            <div class="produto-info">
+              <strong>Camiseta Rock na Praça #1</strong><br>
+              <small>Tamanho: Camiseta P | Cor: Cinza Mescla</small>
+            </div>
+
+            <div class="produto-valores">
+              <div><span>Qtd:</span> 1</div>
+              <div><span>Unitário:</span> R$ 70,00</div>
+              <div><span>Total:</span> R$ 70,00</div>
+            </div>
+          </li>
+
+          <li>
+            <div class="produto-info">
+              <strong>Copo Rock na Praça</strong>
+            </div>
+
+            <div class="produto-valores">
+              <div><span>Qtd:</span> 1</div>
+              <div><span>Unitário:</span> R$ 10,00</div>
+              <div><span>Total:</span> R$ 10,00</div>
+            </div>
+          </li>
+        </ul>
+
+        <ul class="resumo-carrinho">
+          <li><strong>Itens:</strong> <span id="quantidadeTotal">2</span></li>
+          <li><strong>Total:</strong> R$ <span id="total">80,00</span></li>
+        </ul>
+
+        <div class="botoes">
+          <button  class="botao-finalizar-pedido">
+            Finalizar Pedido
+          </button>
+
+          <button class="botao-esvaziar">
+            Esvaziar carrinho
+          </button>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+  <!-- RODAPÉ -->
+  <footer class="rodape" itemscope itemtype="https://schema.org/Organization">
+    <div class="rodape-container">
+
+      <div class="rodape-info">
+        <h3>Rock na Praça</h3>
+        <p itemprop="description">
+          Patrimônio Cultural de Esteio/RS • Membro da ABRAFIN
+        </p>
+      </div>
+
+      <div class="redes-sociais">
+        <a href="https://instagram.com/rocknapraca_/" target="_blank" rel="me"
+          title="Siga o Rock na Praça no Instagram">
+          <img src="./assets/img/instagram_logo.webp" alt="Instagram Oficial">
+        </a>
+        <a href="https://facebook.com/rocknapracaesteio" target="_blank" rel="me">
+          <img src="./assets/img/facebook_logo.webp" alt="Facebook Oficial">
+        </a>
+        <a href="https://youtube.com/@Rocknapraca_RS" target="_blank" rel="me" title="Assista aos vídeos no YouTube">
+          <img src="./assets/img/youtube_logo.webp" alt="YouTube Oficial">
+        </a>
+        <a href="mailto:rocknapracaesteio@gmail.com" title="Enviar e-mail">
+          <img src="./assets/img/email_logo.png" alt="Enviar E-mail">
+        </a>
+      </div>
+
+      <div class="creditos">
+        <p>© 2002–2026 <span>Rock na Praça</span>. Todos os direitos reservados.</p>
+        <p>Produção por: <a href="https://www.instagram.com/balaiada" target="_blank">Balaiada Combo Cultural</a>
+        </p>
+        <p>Desenvolvido por: <a href="https://github.com/luanasantosb" target="_blank" rel="nofollow">Luana Santos</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

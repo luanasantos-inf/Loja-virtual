@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+    <title>Rock na Praça | Produto </title>
+
+    <link rel="icon" type="image/png" href="./assets/img/rock-na-praca_favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@300..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/CSS/estilo.css">
+</head>
+
+<body>
+
+    <a href="./index.html#loja" class="produto-voltar">
+        <span>⬅</span>
+        <span>Voltar para a loja</span>
+    </a>
+
+    <main class="produto-container">
+
+
+        <div class="produto-galeria">
+
+            <input type="radio" name="galeria" id="img1" checked>
+            <input type="radio" name="galeria" id="img2">
+            <input type="radio" name="galeria" id="img3">
+            <input type="radio" name="galeria" id="img4">
+
+            <div class="produto-imagens">
+
+                <img src="./assets/img/Camiseta-1_Rock-na-Praca.webp" class="foto foto1" alt="Produto 1">
+
+                <img src="./assets/img/Camiseta-1-Preta_Rock-na-Praca.webp" class="foto foto2" alt="Produto 2">
+
+                <img src="./assets/img/Camiseta-cores-tabela.webp" class="foto foto3" alt="tabela cores">
+
+                <img src="./assets/img/Camiseta-tamanhos-tabela.webp" class="foto foto4" alt="tabela tamanhos">
+
+            </div>
+
+            <div class="produto-miniaturas">
+
+                <label for="img1">
+                    <img src="./assets/img/Camiseta-1_Rock-na-Praca.webp" alt="Miniatura da camiseta 1">
+                </label>
+
+                <label for="img2">
+                    <img src="./assets/img/Camiseta-1-Preta_Rock-na-Praca.webp" alt="Miniatura da camiseta 1">
+                </label>
+
+                <label for="img3">
+                    <img src="./assets/img/Camiseta-cores-tabela.webp" alt="Miniatura da tabela de cores">
+                </label>
+
+                <label for="img4">
+                    <img src="./assets/img/Camiseta-tamanhos-tabela.webp" alt="Miniatura da tabela de tamanhos">
+                </label>
+
+            </div>
+        </div>
+
+
+        <div class="produto-info">
+
+            <h1 id="nome">Camiseta Modelo #1</h1>
+            <p id="descricao">Camiseta 100% algodão, confortável, macia e perfeita para o dia a dia
+                Disponível em diversas cores e tamanhos, com ótimo caimento e tecido de qualidade para garantir mais
+                conforto e durabilidade.</p>
+            <div id="preco" class="preco">R$70,00</div>
+
+            <div id="variacoes" class="variacoes">
+
+                <div class="campo">
+                    <label>Tamanho</label>
+                    <select name="tamanho">
+                        <option value="">Selecione</option>
+                        <option value="babylook_m">Babylook M</option>
+                        <option value="babylook_g">Babylook G</option>
+                        <option value="babylook_gg">Babylook GG</option>
+                        <option value="babylook_xg">Babylook XG</option>
+                        <option value="camiseta_pp">Camiseta PP</option>
+                        <option value="camiseta_p">Camiseta P</option>
+                        <option value="camiseta_m">Camiseta M</option>
+                        <option value="camiseta_g">Camiseta G</option>
+                        <option value="camiseta_gg">Camiseta GG</option>
+                        <option value="camiseta_xg">Camiseta XG</option>
+                        <option value="camiseta_xxg">Camiseta XXG</option>
+                    </select>
+                </div>
+
+                <div class="campo">
+                    <label>Cor</label>
+                    <select name="cor">
+                        <option value="">Selecione</option>
+                        <option value="preto">Preto</option>
+                        <option value="cinza_chumbo">Cinza Chumbo</option>
+                        <option value="cinza_mescla">Cinza Mescla</option>
+                        <option value="preto_mescla">Preto Mescla</option>
+                        <option value="cinza_medio">Cinza Médio</option>
+                        <option value="branco">Branco</option>
+                        <option value="marrom">Marrom</option>
+                        <option value="amarelo_canario">Amarelo Canário</option>
+                        <option value="amarelo_ouro">Amarelo Ouro</option>
+                        <option value="amarelo_mostarda">Amarelo Mostarda</option>
+                        <option value="laranja">Laranja</option>
+                        <option value="vermelho">Vermelho</option>
+                        <option value="bordo">Bordô</option>
+                        <option value="rosa_goiaba">Rosa Goiaba</option>
+                        <option value="rosa_bebe">Rosa Bebê</option>
+                        <option value="rosa_pink">Rosa Pink</option>
+                        <option value="lilas">Lilás</option>
+                        <option value="roxo">Roxo</option>
+                        <option value="verde_fluor">Verde Fluor</option>
+                        <option value="verde_bandeira">Verde Bandeira</option>
+                        <option value="verde_folha">Verde Folha</option>
+                        <option value="verde_musgo">Verde Musgo</option>
+                        <option value="azul_marinho">Azul Marinho</option>
+                        <option value="azul_royal">Azul Royal</option>
+                        <option value="azul_jade">Azul Jade</option>
+                        <option value="azul_turquesa">Azul Turquesa</option>
+                        <option value="crua">Crua (tom cru/bege claro)</option>
+                        <option value="raglan_mescla_preto">Raglan Mescla/Preto</option>
+                        <option value="raglan_mescla_bordo">Raglan Mescla/Bordô</option>
+                        <option value="raglan_branco_preto">Raglan Branco/Preto</option>
+                    </select>
+                </div>
+
+            </div>
+
+            <a href="./checkout.html" class="botao-adicionar">
+                Adicionar ao carrinho
+            </a>
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
