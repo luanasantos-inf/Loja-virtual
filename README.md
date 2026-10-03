@@ -1,6 +1,6 @@
 # 🛍️ Loja Virtual — Web 1
 
-> Projeto acadêmico desenvolvido para a disciplina de Web 1, com foco na construção de uma loja virtual utilizando HTML5 e CSS3 puros.
+> Projeto acadêmico desenvolvido para a disciplina de Programação para web I , com foco na construção de uma loja virtual utilizando HTML5 e CSS3 puros.
 
 ---
 
